@@ -1,0 +1,85 @@
+2022-11-29 14:10:50.707  INFO 16224 --- [main] c.m.mapping.MappingApplication           : Starting MappingApplication v0.0.1-SNAPSHOT using Java 11.0.12 on CA-OmkarR with PID 16224 (E:\NG-Pay\ng-pay-one-to-one\target\mapping-0.0.1-SNAPSHOT.jar started by OMKAR in E:\NG-Pay\ng-pay-one-to-one)
+2022-11-29 14:10:50.710  INFO 16224 --- [main] c.m.mapping.MappingApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 14:10:51.944  INFO 16224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 14:10:52.032  INFO 16224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2022-11-29 14:10:53.375  INFO 16224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-11-29 14:10:53.397  INFO 16224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-29 14:10:53.398  INFO 16224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-29 14:10:53.540  INFO 16224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-29 14:10:53.541  INFO 16224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2727 ms
+2022-11-29 14:10:53.843  INFO 16224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 14:10:53.937  INFO 16224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-29 14:10:54.218  INFO 16224 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 14:10:54.404  INFO 16224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-29 14:10:54.707  INFO 16224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-29 14:10:54.733  INFO 16224 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-29 14:10:55.707  INFO 16224 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 14:10:55.722  INFO 16224 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 14:10:56.504  WARN 16224 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 14:10:58.112  WARN 16224 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2022-11-29 14:10:58.115  INFO 16224 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 14:10:58.118  INFO 16224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-29 14:10:58.133  INFO 16224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-29 14:10:58.153  INFO 16224 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-29 14:10:58.186  INFO 16224 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-29 14:10:58.246 ERROR 16224 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2022-11-29 14:11:53.509  INFO 18948 --- [main] c.m.mapping.MappingApplicationTests      : Starting MappingApplicationTests using Java 11.0.12 on CA-OmkarR with PID 18948 (started by OMKAR in E:\NG-Pay\ng-pay-one-to-one)
+2022-11-29 14:11:53.514  INFO 18948 --- [main] c.m.mapping.MappingApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 14:11:54.989  INFO 18948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 14:11:55.086  INFO 18948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2022-11-29 14:11:56.106  INFO 18948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 14:11:56.227  INFO 18948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-29 14:11:56.457  INFO 18948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 14:11:57.132  INFO 18948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-29 14:11:57.611  INFO 18948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-29 14:11:57.641  INFO 18948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-29 14:11:58.959  INFO 18948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 14:11:58.972  INFO 18948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 14:12:00.306  WARN 18948 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 14:12:02.790  INFO 18948 --- [main] c.m.mapping.MappingApplicationTests      : Started MappingApplicationTests in 9.895 seconds (JVM running for 11.682)
+2022-11-29 14:12:03.086  INFO 18948 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 14:12:03.091  INFO 18948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-29 14:12:03.103  INFO 18948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-29 14:12:24.916  INFO 14544 --- [main] c.m.mapping.MappingApplication           : Starting MappingApplication v0.0.1-SNAPSHOT using Java 11.0.12 on CA-OmkarR with PID 14544 (E:\NG-Pay\ng-pay-one-to-one\target\mapping-0.0.1-SNAPSHOT.jar started by OMKAR in E:\NG-Pay\ng-pay-one-to-one)
+2022-11-29 14:12:24.921  INFO 14544 --- [main] c.m.mapping.MappingApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 14:12:26.187  INFO 14544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 14:12:26.290  INFO 14544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2022-11-29 14:12:27.615  INFO 14544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-11-29 14:12:27.640  INFO 14544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-29 14:12:27.642  INFO 14544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-29 14:12:27.785  INFO 14544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-29 14:12:27.786  INFO 14544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2758 ms
+2022-11-29 14:12:28.141  INFO 14544 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 14:12:28.217  INFO 14544 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-29 14:12:28.528  INFO 14544 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 14:12:28.733  INFO 14544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-29 14:12:29.078  INFO 14544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-29 14:12:29.117  INFO 14544 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-29 14:12:30.263  INFO 14544 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 14:12:30.279  INFO 14544 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 14:12:31.031  WARN 14544 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 14:12:32.509  INFO 14544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-11-29 14:12:32.533  INFO 14544 --- [main] c.m.mapping.MappingApplication           : Started MappingApplication in 8.561 seconds (JVM running for 9.408)
+2022-11-29 14:14:00.260  INFO 14544 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-29 14:14:00.263  INFO 14544 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-29 14:14:00.271  INFO 14544 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-11-29 14:14:00.978  INFO 14544 --- [http-nio-9090-exec-2] c.m.mapping.service.PersonService        : Persons Fetched Successfully at Tue Nov 29 14:14:00 IST 2022
+2022-11-29 14:14:10.341  INFO 14544 --- [http-nio-9090-exec-3] c.m.mapping.service.PersonService        : Persons Fetched Successfully at Tue Nov 29 14:14:10 IST 2022
+2022-11-29 14:15:40.273  INFO 14544 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 14:15:40.280  INFO 14544 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-29 14:15:40.298  INFO 14544 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
